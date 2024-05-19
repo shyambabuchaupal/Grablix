@@ -1,0 +1,529 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 171px;
+    height: 55.68px;
+}
+
+.banner_text {
+    top: -11%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .translate-middle {
+    transform: translate(-50%,-50%)!important;
+} */
+
+.banner_text p {
+    font-weight: 400;
+    font-size: 82.83px;
+    line-height: 78.29px;
+    font-family: "Syne";
+}
+
+.textHeadding h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 30.57px;
+    letter-spacing: 0.92px;
+    color: #FF843F;
+    font-family: "Poppins";
+}
+
+.text_content {
+    width: 353px;
+    height: 124px;
+    margin-top: 26px;
+    /* border: 1px solid red; */
+}
+
+.text_content p {
+    font-weight: 400;
+    font-size: 16.97px;
+    line-height: 28.76px;
+    letter-spacing: 0.13px;
+    font-family: "Poppins";
+}
+
+.btn-btn {
+    margin-top: 43px;
+    border: 1px solid #FF843F;
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    padding: 3px 0;
+}
+
+.btn-btn a {
+    font-weight: 400;
+    font-size: 15.53px;
+    line-height: 21.84px;
+    letter-spacing: 1.15px;
+    color: #FF843F;
+}
+
+.menuicon {
+    width: 27px;
+    height: 27px;
+}
+
+.clinentHeadong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.clinentHeadong h2 {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 20.57px;
+    letter-spacing: 2.92px;
+    color: #FF843F;
+    font-family: "Sora";
+}
+
+.clintpage {
+    width: 100%;
+}
+
+.movingimg {
+    font-size: 6vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.clintLogo img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    /* height: 86.26px; */
+    margin: auto;
+}
+
+.clintLogo1 img {
+    width: 195.45px;
+    height: 115.11px;
+    margin: auto;
+}
+
+.clintLogo2 img {
+    width: 212.58px;
+    height: 89.84px;
+    margin: auto;
+}
+
+.clintLogo3 img {
+    width: 131.58px;
+    height: 93.85px;
+    margin: auto;
+}
+
+.faqHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 83px 0;
+}
+
+.testheading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 83px 0;
+}
+
+.testheading h2 {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 24.16px;
+    letter-spacing: 3%;
+    font-family: "Sora";
+    color: #FF843F;
+}
+
+.testsection {
+    margin: 0 46px;
+}
+
+.fotersmalltext small {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 22.51px;
+    letter-spacing: 0.13px;
+    font-family: "Inter";
+    color: #323232;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.fotersmalltext h2 {
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 97.51px;
+
+    font-family: "Inter";
+    color: #323232;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footerimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 31px 0;
+}
+
+.footerimg img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin-top: 61px;
+}
+
+.footer {
+    padding-top: 210px;
+}
+
+/* faq css start  */
+.faqsection {
+    margin: 0 40px;
+}
+
+.faqHeading h2 {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 100.16px;
+    letter-spacing: 4%;
+
+    font-family: "Sora";
+}
+
+.menuff {
+    height: 43vh;
+    right: 168px !important;
+    top: 69px !important;
+}
+
+.accordion-container {
+    width: 100%;
+
+}
+
+.accordion-item {
+    background-color: #FFFFFF;
+    /* White background for items */
+    border-bottom: 1px solid #E0E0E0;
+    /* Light border */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    /* Softer shadow */
+}
+
+.accordion-header {
+    /* background-color: #FFFFFF; */
+    /* Soft purple */
+    color: #000000;
+    /* White text */
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.accordion-content {
+    background-color: #FAFAFA;
+    /* Very light grey for content */
+    overflow: hidden;
+    padding: 0 15px;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-content p {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.active .icon {
+    transform: rotate(45deg);
+}
+
+.text_content {
+    width: 353px;
+    height: 125px;
+
+}
+
+.videoHeading {
+    font-family: "Sora";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 63.29px;
+    text-align: center;
+}
+
+/* service section css start  */
+.headinser {
+    font-weight: 500;
+    font-size: 2.5vw;
+    line-height: 2vw;
+    letter-spacing: 0.92px;
+    color: #FF843F;
+    font-family: "Poppins";
+    padding: 11vw 0vw 0vw 0vw;
+}
+
+.page1P {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    padding: 2vw 0;
+    width: 100%;
+
+    /* background-color: red; */
+}
+
+.nav-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.nav-part2 h4 {
+    font-size: 4vw;
+    font-weight: 600;
+    color: #000000;
+    position: relative;
+    transition: all ease 0.4s;
+    overflow: hidden;
+    width: 100%;
+    padding: 2vw 8vw;
+    font-family: "Sora";
+    line-height: 59px;
+}
+
+.nav-part2 h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #FF843F;
+    left: 0;
+    bottom: -100%;
+    transition: all ease 0.4s;
+}
+
+.nav-part2 h4:hover::after {
+    bottom: 0;
+}
+
+.nav-part2 h4 a {
+    color: #000000;
+    text-decoration: none;
+    z-index: 9;
+    position: relative;
+
+}
+
+.nav-part2 h4:hover a {
+    color: white;
+}
+
+#fixed-img {
+    height: 20vw;
+    width: 20vw;
+    /* background-color: red; */
+    position: fixed;
+    z-index: 99;
+    border-radius: 10px;
+    left: 50%;
+    top: 30%;
+    display: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+/* new client css  */
+.page2{
+    width: 100%;
+    padding: 0vw 0;
+}
+.moving{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.moving::-webkit-scrollbar{
+    display: none;
+}
+.con{
+    white-space: nowrap;
+    display: inline-block;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.moving h2{
+    font-size: 9vw;
+    display: inline-block;
+}
+.gola{
+    width: 50px ;
+    height: 50px ;
+    border-radius: 50%;
+    background-color: #FF843F;
+    display: inline-block;
+    margin: 1vw 3vw;
+}
+@keyframes move{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+
+.reviText {
+    font-size: 14.22px;
+    line-height: 20.43px;
+    font-weight: 400;
+    text-align: center;
+    font-family: League Spartan;
+}
+.reviText1{
+    font-size: 16.22px;
+    line-height: 20.43px;
+    font-weight: 400;
+    text-align: center;
+    font-family: League Spartan;
+}
+.reviText2{
+    font-size: 18.22px;
+    line-height: 20.43px;
+    font-weight: 400;
+    text-align: center;
+    font-family: League Spartan;
+}
+.reviText3{
+    font-size: 20.22px;
+    line-height: 20.43px;
+    font-weight: 400;
+    text-align: center;
+    font-family: League Spartan;
+}
+
+
+
+@media(max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 992px) and (max-width: 1199px) {
+    .banner_text {
+
+        top: 1%;
+
+
+    }
+
+    .videoHeading {
+        font-family: "Sora";
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 39.29px;
+        text-align: center;
+    }
+
+    .text_content {
+        /* width: 305px; */
+        height: 129px;
+
+    }
+
+    .banner_text p {
+
+        font-size: 55.1px;
+        line-height: 64.32px;
+
+    }
+
+    .btn-btn {
+        margin-top: 43px;
+        border: 1px solid #FF843F;
+        width: 41%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 14px;
+        padding: 7px 0;
+        margin-bottom: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+only screen and (min-width: 576px) and (max-width: 767px) {
+    .banner_text {
+        width: 274px;
+        height: 234.86px;
+        position: absolute;
+        top: 105.57px;
+        left: 210px;
+        display: flex;
+    }
+
+    .banner_text p {
+        font-weight: 400;
+        font-size: 55.1px;
+        line-height: 70.32px;
+        font-family: "Syne";
+    }
+}
