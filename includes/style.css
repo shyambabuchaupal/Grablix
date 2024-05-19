@@ -227,10 +227,28 @@ a {
     font-family: "Sora";
 }
 
-.menuff {
-    height: 43vh;
-    right: 168px !important;
-    top: 69px !important;
+.normalSection {
+    width: 100%;
+    margin-top: 128px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    padding: 2vw 0vw;
+}
+.normalSection h2{
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 44.16px;
+text-transform: capitalize;
+}
+.aboutText{
+    padding: 5vw 14vw;
+}
+.aboutText p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 45.76px;
+    letter-spacing: 0.13px;
+    font-family: "Poppins";
 }
 
 .accordion-container {
@@ -463,6 +481,10 @@ nav {
     font-weight: 400;
     text-align: center;
     font-family: League Spartan;
+}
+
+.contactDesc{
+    
 }
 
 

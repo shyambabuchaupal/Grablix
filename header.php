@@ -33,7 +33,7 @@
 
     <nav class="navbar  fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.php">
                 <img src="image/GrblixLogo.png" alt="logo" class='logo'>
             </a>
             <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
@@ -56,10 +56,10 @@
                             <a class="nav-link" href="#">Work</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="about.php">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="contact.php">Contact Us</a>
                         </li>
                       
                     </ul>
